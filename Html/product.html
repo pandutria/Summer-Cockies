@@ -28,10 +28,12 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="icon" href="../images/logo/logo.png">
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pembelian</title>
+    <title>Produk</title>
     <link rel="stylesheet" href="/Css/pembelian.css" />
   </head>
   <body>
@@ -39,10 +41,10 @@
       <nav class="navbar">
         <h1>Summer Cookies</h1>
         <ul>
-          <li><a href="#home">Beranda</a></li>
-          <li><a href="#about">Tentang Kami</a></li>
-          <li><a href="#product">Produk</a></li>
-          <li><a href="#testimoni">Testimoni</a></li>
+          <li><a href="./Index.html">Beranda</a></li>
+          <li><a href="./index.html#about">Tentang Kami</a></li>
+          <li><a href="./index.html#product">Produk</a></li>
+          <li><a href="./index.html#testimoni">Testimoni</a></li>
         </ul>
       </nav>
     </div>
@@ -59,14 +61,14 @@
       </div>
     </section>
 
-    <section class="section-product-pembelian" id="testimonial">
+    <section class="section-product-pembelian" id="testimonial" data-aos="fade-up" data-aos-duration="900">
       <h1>Produk Kami</h1>
       <div class="container-product-pembelian">
         <div class="product-item" data-name="Bunny’s Eye">
           <img src="/images/Payment/Bunny.png" alt="" style="width: 9rem" />
           <h2>Bunny’s Eye</h2>
           <p>Rp. 12.000</p>
-          <a href="/Html/payment.html?product=    ">Beli</a>
+          <a href="/Html/payment.html?id=1" class="buy-button">Beli</a>
         </div>
         <div class="product-item" data-name="Strawberry">
           <img
@@ -76,13 +78,13 @@
           />
           <h2>Strawberry</h2>
           <p>Rp. 13.000</p>
-          <a href="/Html/payment.html?product=    ">Beli</a>
+          <a href="/Html/payment.html?id=2" class="buy-button">Beli</a>
         </div>
         <div class="product-item" data-name="Kaling Green">
           <img src="/images/Payment/Kaling.png" alt="" style="width: 9.7rem" />
           <h2>Kaling Green</h2>
           <p>Rp. 15.000</p>
-          <a href="/Html/payment.html?product=    ">Beli</a>
+          <a href="/Html/payment.html?id=3" class="buy-button">Beli</a>
         </div>
       </div>
       <div class="container-product-pembelian">
@@ -90,19 +92,19 @@
           <img src="/images/Payment/Lemon.png" alt="" />
           <h2>Lemon Sereh</h2>
           <p>Rp. 9.000</p>
-          <a href="/Html/payment.html?product=    ">Beli</a>
+          <a href="/Html/payment.html?id=4" class="buy-button">Beli</a>
         </div>
         <div class="product-item" data-name="Markisa Telang">
           <img src="/images/Payment/Markisa.png" alt="" />
           <h2>Markisa Telang</h2>
           <p>Rp. 16.000</p>
-          <a href="/Html/payment.html?product=    ">Beli</a>
+          <a href="/Html/payment.html?id=5" class="buy-button">Beli</a>
         </div>
         <div class="product-item" data-name="Bunny's Red">
           <img src="/images/Payment/Bunny-red.png" alt="" />
           <h2>Bunny’s Red</h2>
           <p>Rp. 12.000</p>
-          <a href="/Html/payment.html?product=    ">Beli</a>
+          <a href="/Html/payment.html?id=6" class="buy-button">Beli</a>
         </div>
       </div>
       <div class="container-product-pembelian">
@@ -114,7 +116,7 @@
           />
           <h2>Red Valvet Biscuits</h2>
           <p>Rp. 12.000</p>
-          <a href="/Html/payment.html?product=    ">Beli</a>
+          <a href="/Html/payment.html?id=7" class="buy-button">Beli</a>
         </div>
         <div class="product-item" data-name="Chocolate Biscuits">
           <img
@@ -124,7 +126,7 @@
           />
           <h2>Chocolate Biscuits</h2>
           <p>Rp. 12.000</p>
-          <a href="/Html/payment.html?product=    ">Beli</a>
+          <a href="/Html/payment.html?id=8" class="buy-button">Beli</a>
         </div>
         <div class="product-item" data-name="Matcha Biscuits">
           <img
@@ -134,7 +136,7 @@
           />
           <h2>Matcha Biscuits</h2>
           <p>Rp. 12.000</p>
-          <a href="/Html/payment.html?product=    ">Beli</a>
+          <a href="/Html/payment.html?id=9" class="buy-button">Beli</a>
         </div>
       </div>
       <p style="text-align: center;" class="notFound">Produk Tidak Ditemukan</p>
@@ -187,5 +189,9 @@
     </footer>
 
     <script src="/JavaScript/pembelian.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

@@ -22,6 +22,8 @@
     />
     <link rel="stylesheet" href="boxicons.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="icon" href="../images/logo/logo.png">
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -45,10 +47,10 @@
   <section class="section-home" id="home">
       <h1>Minuman Segar dan Menyehatkan</h1>
       <h2>Hanya Ada di <span>Summer Cookies</span></h2>
-      <img src="/images/juiceHome.png" alt="">
+      <img src="/images/juiceHome.png" alt="" class="parallax-image">
   </section>
   
-    <section class="section-about" id="about">
+    <section class="section-about" id="about" data-aos="fade-up" data-aos-duration="900">
       <div class="container-about">
         <img src="/images/about.png" alt="" />
         <div class="text-about">
@@ -68,7 +70,7 @@
       </div>
     </section>
 
-    <section class="section-product" id="product">
+    <section class="section-product" id="product" data-aos="fade-up" data-aos-duration="900">
       <h2>Produk Kami</h2>
       <h1>Produk Jus Unggulan</h1>
       <div class="container-item-product">
@@ -213,10 +215,10 @@
           </div>
         </div>
       </div>
-      <a href="./pembelian.html" class="button-more"><button>Lebih Banyak</button></a>
+      <a href="./product.html" class="button-more"><button>Lebih Banyak</button></a>
   </section>
 
-    <section class="section-biskuit">
+    <section class="section-biskuit" data-aos="fade-up" data-aos-duration="900">
       <h1>Daftar Teratas Biskuit Terbaik</h1>
       <div class="container-biskuit">
           <div class="biskuit" style="background: linear-gradient(to right, #E484DB 0%, #BC1B81 100%)">
@@ -255,7 +257,7 @@
       </div>
   </section>
 
-    <section class="section-testimonial" id="testimoni">
+    <section class="section-testimonial" id="testimoni" data-aos="fade-up" data-aos-duration="900">
       <h2>Testimoni</h2>
       <h1>Apa kata mereka mengenai <br> Summer Cockies</h1>
       <div class="container-testimonial">
@@ -340,5 +342,10 @@
         </div>
     </footer>
     </section>
+    <script src="../JavaScript/index.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
