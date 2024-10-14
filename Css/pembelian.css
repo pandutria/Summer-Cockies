@@ -8,6 +8,7 @@ html,
 body {
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
+  background: #f3f3f3;
 }
 
 .container-navbar {
@@ -159,7 +160,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 60px;
   gap: 5rem;
 }
 
@@ -212,6 +213,97 @@ body {
   border-radius: 0px 0px 8px 8px;
 }
 
-.container-product-pembelian h3 {
+.footer {
+  color: #fff;
+  width: 100%;
+  height: 60vh;
+  background-color: #A1BC1B;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 10rem;
+}
+
+.footer-section {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 120px;
+}
+
+.footer-section h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 23px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 20px;
+  text-align: start;
+}
+
+.footer-section p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  color: white;
+  font-weight: 500;
+}
+
+.footer-about-company p, 
+.footer-legal p,
+.footer-Useful-links p,
+.footer-newsletter p {
+  margin: 14px 0;
+}
+
+.footer-icon {
+  display: flex;
+  margin-top: 23px;
+  gap: 7px;
+  cursor: pointer;
+}
+
+.footer-icon img {
+  width: 30px;
+  height: 30px;
+}
+
+.footer-newsletter {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-newsletter input {
+  width: 100%;
+  height: 40px;
+  margin: 10px 0 10px 0;
+  background-color: white;
+  outline: none;
+  border: 1px solid white;
+  padding-left: 10px;
+  border-radius: 3px;
+  color: #737373;
+}
+
+.footer-newsletter a button {
+  width: 100%;
+  height: 40px;
+  color: #A1BC1B;
+  background-color: white;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.copyright p {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  text-align: center;
+  transform: translateY(360%);
+}
+
+.notFound {
   display: none;
+  margin-top: -5rem;
 }

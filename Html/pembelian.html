@@ -1,87 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="boxicons.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pembelian</title>
-    <link rel="stylesheet" href="/Css/pembelian.css">
-</head>
-<body>
-    <script src="/JavaScript/index.js"></script>
+    <link rel="stylesheet" href="/Css/pembelian.css" />
+  </head>
+  <body>
     <div class="container-navbar">
-        <nav class="navbar">
-          <h1>Summer Cookies</h1>
-          <ul>
-            <li><a href="/Html/Index.html#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#product">Product</a></li>
-            <li><a href="#testimonial">Testimonial</a></li>
-          </ul>
-        </nav>
+      <nav class="navbar">
+        <h1>Summer Cookies</h1>
+        <ul>
+          <li><a href="#home">Beranda</a></li>
+          <li><a href="#about">Tentang Kami</a></li>
+          <li><a href="#product">Produk</a></li>
+          <li><a href="#testimoni">Testimoni</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <section class="section-home-pembelian">
+      <h1>Minuman Sehat Terbaik</h1>
+      <h2>Untukmu</h2>
+      <div class="input-search">
+        <div class="input-container">
+          <img src="/images/search.png" alt="search icon" class="input-icon" />
+          <input type="text" placeholder="Cari..." />
+          <button class="search-button">Cari</button>
+        </div>
       </div>
+    </section>
 
-      <section class="section-home-pembelian">
-        <h1>Healthy drinks are waiting </h1>
-        <h2>for you</h2>
-        <div class="input-search">
-            <div class="input-container">
-              <img src="/images/search.png" alt="search icon" class="input-icon">
-              <input type="text" placeholder="Search...">
-                <button class="search-button">Search</button>
-              </div>
+    <section class="section-product-pembelian" id="testimonial">
+      <h1>Produk Kami</h1>
+      <div class="container-product-pembelian">
+        <div class="product-item" data-name="Bunny’s Eye">
+          <img src="/images/Payment/Bunny.png" alt="" style="width: 9rem" />
+          <h2>Bunny’s Eye</h2>
+          <p>Rp. 12.000</p>
+          <a href="/Html/payment.html?product=    ">Beli</a>
         </div>
-      </section>
+        <div class="product-item" data-name="Strawberry">
+          <img
+            src="/images/Payment/Strawberry.png"
+            alt=""
+            style="width: 8.5rem"
+          />
+          <h2>Strawberry</h2>
+          <p>Rp. 13.000</p>
+          <a href="/Html/payment.html?product=    ">Beli</a>
+        </div>
+        <div class="product-item" data-name="Kaling Green">
+          <img src="/images/Payment/Kaling.png" alt="" style="width: 9.7rem" />
+          <h2>Kaling Green</h2>
+          <p>Rp. 15.000</p>
+          <a href="/Html/payment.html?product=    ">Beli</a>
+        </div>
+      </div>
+      <div class="container-product-pembelian">
+        <div class="product-item" data-name="Lemon Sereh">
+          <img src="/images/Payment/Lemon.png" alt="" />
+          <h2>Lemon Sereh</h2>
+          <p>Rp. 9.000</p>
+          <a href="/Html/payment.html?product=    ">Beli</a>
+        </div>
+        <div class="product-item" data-name="Markisa Telang">
+          <img src="/images/Payment/Markisa.png" alt="" />
+          <h2>Markisa Telang</h2>
+          <p>Rp. 16.000</p>
+          <a href="/Html/payment.html?product=    ">Beli</a>
+        </div>
+        <div class="product-item" data-name="Bunny's Red">
+          <img src="/images/Payment/Bunny-red.png" alt="" />
+          <h2>Bunny’s Red</h2>
+          <p>Rp. 12.000</p>
+          <a href="/Html/payment.html?product=    ">Beli</a>
+        </div>
+      </div>
+      <div class="container-product-pembelian">
+        <div class="product-item" data-name="Red Velvet Biscuits">
+          <img
+            src="/images/redBiskuit.png"
+            alt=""
+            style="margin: 30px auto 30px auto; width: 9rem"
+          />
+          <h2>Red Valvet Biscuits</h2>
+          <p>Rp. 12.000</p>
+          <a href="/Html/payment.html?product=    ">Beli</a>
+        </div>
+        <div class="product-item" data-name="Chocolate Biscuits">
+          <img
+            src="/images/coklatBiskuit.png"
+            alt=""
+            style="margin: 30px auto 30px auto; width: 10.5rem"
+          />
+          <h2>Chocolate Biscuits</h2>
+          <p>Rp. 12.000</p>
+          <a href="/Html/payment.html?product=    ">Beli</a>
+        </div>
+        <div class="product-item" data-name="Matcha Biscuits">
+          <img
+            src="/images/greenBiskuit.png"
+            alt=""
+            style="margin: 30px auto 30px auto"
+          />
+          <h2>Matcha Biscuits</h2>
+          <p>Rp. 12.000</p>
+          <a href="/Html/payment.html?product=    ">Beli</a>
+        </div>
+      </div>
+      <p style="text-align: center;" class="notFound">Produk Tidak Ditemukan</p>
+    </section>
 
-      <section class="section-product-pembelian" id="testimonial">
-        <h1>Product</h1>
-        <div class="container-product-pembelian">
-            <div>
-                <img src="/images/pembelian2.png" alt="">
-                <h2>Bunny’s Eye</h2>
-                <p>Rp. 12.000</p>
-                <a href="/Html/payment.html?product=    ">Beli</a>
-                <h3>Bunny's Eye adalah minuman jus segar yang terbuat dari kombinasi buah-buahan pilihan berkualitas tinggi, dirancang untuk memberikan rasa yang lezat dan menyegarkan. Dengan campuran buah-buahan alami, "Bunny's Eye" tidak hanya menyegarkan, tetapi juga kaya akan vitamin dan nutrisi yang baik untuk tubuh. Rasakan kesegaran alami dan kebaikan dari alam dalam setiap tetes "Bunny's Eye", minuman yang sempurna untuk menemani aktivitas harian Anda!</h3>
-            </div>
-            <div>
-                <img src="/images/pembelian2.png" alt="">
-                <h2>Bunny’s Eye</h2>
-                <p>Rp. 12.000</p>
-                <a href="/Html/payment.html?product=    ">Beli</a>
-                <h3>Bunny's Eye adalah minuman jus segar yang terbuat dari kombinasi buah-buahan pilihan berkualitas tinggi, dirancang untuk memberikan rasa yang lezat dan menyegarkan. Dengan campuran buah-buahan alami, "Bunny's Eye" tidak hanya menyegarkan, tetapi juga kaya akan vitamin dan nutrisi yang baik untuk tubuh. Rasakan kesegaran alami dan kebaikan dari alam dalam setiap tetes "Bunny's Eye", minuman yang sempurna untuk menemani aktivitas harian Anda!</h3>
-            </div>
-            <div>
-                <img src="/images/pembelian2.png" alt="">
-                <h2>Bunny’s Eye</h2>
-                <p>Rp. 12.000</p>
-                <a href="/Html/payment.html?product=    ">Beli</a>
-                <h3>Bunny's Eye adalah minuman jus segar yang terbuat dari kombinasi buah-buahan pilihan berkualitas tinggi, dirancang untuk memberikan rasa yang lezat dan menyegarkan. Dengan campuran buah-buahan alami, "Bunny's Eye" tidak hanya menyegarkan, tetapi juga kaya akan vitamin dan nutrisi yang baik untuk tubuh. Rasakan kesegaran alami dan kebaikan dari alam dalam setiap tetes "Bunny's Eye", minuman yang sempurna untuk menemani aktivitas harian Anda!</h3>
-            </div>
+    <footer class="footer" id="footer">
+      <div class="footer-section">
+        <div class="footer-about-company">
+          <h1>Tentang UMKM</h1>
+          <p>
+            UMKM Summer Cookies<br />
+            Sponsored by SMKN 26 Jakarta
+          </p>
+          <div class="footer-icon">
+            <img src="/images/Icon/twitter.png" alt="" />
+            <img src="/images/Icon/facebook.png" alt="" />
+            <img src="/images/Icon/instagram.png" alt="" />
+            <img src="/images/Icon/e-commerce.png" alt="" />
+          </div>
         </div>
-      </section>
-</body>
+        <div class="footer-legal">
+          <h1>Legal</h1>
+          <p>Ketentuan Layanan</p>
+          <p>Perjanjian Tingkat Layanan</p>
+          <p>Kebijakan Privasi</p>
+          <p>Kebijakan Pembelian</p>
+        </div>
+        <div class="footer-Useful-links">
+          <h1>Konten</h1>
+          <p>Beranda</p>
+          <p>Tentang Kami</p>
+          <p>Produk</p>
+          <p>Testimoni</p>
+        </div>
+        <div class="footer-newsletter">
+          <h1>Umpan balik</h1>
+          <p style="margin-top: 0px">
+            Aplications prodize before front end ortals <br />
+            visualize front end
+          </p>
+          <input type="email" name="email" placeholder="Your email" required />
+          <a href="#"><button type="submit">Subscribe</button></a>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          @copyright 2024 all right reserved by SMK NEGERI MANDIRI 26 JAKARTA
+        </p>
+      </div>
+    </footer>
+
+    <script src="/JavaScript/pembelian.js"></script>
+  </body>
 </html>
