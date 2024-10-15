@@ -325,3 +325,34 @@ hr {
 .container-product-payment h3 {
   display: none;
 }
+
+@media screen and (max-width: 768px) {
+  .product {
+    padding: 0 50px;
+  }
+
+  .productImage {
+    width: 120px;
+  }
+
+  hr {
+    display: none;
+  }
+
+  .payment-product {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .left-payment {
+    width: 320px;
+  }
+
+  .right-payment {
+    margin-left: 0;
+  }
+
+  #productDescription {
+    width: 320px;
+  }
+}

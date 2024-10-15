@@ -21,3 +21,12 @@ document.querySelector('.search-button').addEventListener('click', function() {
         alert.style.display = 'block';
     }
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    const list = document.getElementById('list');
+    const Ul = document.querySelector('.ul');
+
+    list.addEventListener('click', function() {
+        Ul.classList.toggle('active');
+    });
+});
